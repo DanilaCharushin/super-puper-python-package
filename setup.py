@@ -9,7 +9,7 @@ from setuptools import setup
 :copyright: (c) 2021 DanilaCharushin
 """
 
-version = '0.0.1'
+version = '0.0.1.1'
 
 description = """
 So, I hope you leave this repo, it's for test.
@@ -30,7 +30,7 @@ setup(
     url='https://github.com/DanilaCharushin/super-puper-python-package',
     download_url='https://github.com/DanilaCharushin/super-puper-python-package/archive/master.zip',
     license='MIT License',
-    packages=['super-puper-python-package'],
+    packages=['super_puper_python_package'],
     install_requires=['loguru'],
     classifiers=[
         'Operating System :: OS Independent',
